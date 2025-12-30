@@ -1,0 +1,27 @@
+{
+  "name": "pixabay-mini-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yosohanomi/pixabay-mini-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yosohanomi/pixabay-mini-project/issues"
+  },
+  "homepage": "https://github.com/Yosohanomi/pixabay-mini-project#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.3"
+  }
+}
