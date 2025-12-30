@@ -150,8 +150,8 @@ input:hover, input:focus {
   margin-top: 10px;
   color: rgb(28, 28, 28);
   background-color: rgb(218, 215, 215);
-  padding: 10px 30px;
-  border-radius: 20%;
+  padding: 10px 30%;
+  border-radius: 20px;
   border: none;
   transition: 1s;
 }
